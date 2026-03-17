@@ -590,6 +590,7 @@ body::after {
     color: var(--text-primary);
     text-align: center;
     outline: none;
+    appearance: textfield;
     -moz-appearance: textfield;
     transition: border-color var(--ease), box-shadow var(--ease);
 }
